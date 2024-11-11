@@ -8,7 +8,7 @@ Choose a large prime number p and a generator g of the multiplicative group of i
 p. Alice chooses a private key and computes her public key as pubIic_key = g ^private_key mod p. To encrypt a message, Bob chooses a random number k and computes a ciphertext pair (c1, c2). To decrypt the message, Alice uses her private key and computes the original message. The decrypted message is verified to be the same as the original.
 
 # PROGRAM:
-~~~
+~~~c
 #include <stdio.h>
 #include <math.h>
 
